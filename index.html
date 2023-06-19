@@ -1,58 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width">
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg">
-		<meta name="generator" content="Astro v1.7.2">
-		<title>Welcome to Astro.</title>
-	<link rel="stylesheet" href="/assets/about.6db61397.css" />
-<link rel="stylesheet" href="/assets/index.38ebcd70.css" /><script type="module" src="/hoisted.3a8e2e73.js"></script></head>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nikms</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+	<script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+</head>
+<body class="is-boxed has-animations">
+    <div class="body-wrap">
+        <header class="site-header">
+            <div class="container">
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+							<a href="#">
+								<img class="header-logo-image" src="dist/images/logo.svg" alt="Logo">
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-	<body>
-		<main class="astro-ISJLNC5K">
-<canvas id="myCanvas" class="astro-ISJLNC5K"></canvas>
-<div class="squircle astro-ISJLNC5K">
-<div id="layout" class="astro-ISJLNC5K">
-    <!-- Menu toggle -->
-    <a href="#menu" id="menuLink" class="menu-link astro-ISJLNC5K">
-        <!-- Hamburger icon -->
-        <span class="astro-ISJLNC5K"></span>
-    </a>
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-inner">
+						<div class="hero-copy">
+	                        <h1 class="hero-title mt-0">Hello</h1>
+	                        <p class="hero-paragraph">Welcome to nikms!</p>
+	                        <div class="hero-cta"><a class="button button-primary" href="#">Coming Soon</a><a class="button" href="#">Get in touch</a></div>
+						</div>
+						<div class="hero-figure anime-element">
+							<svg class="placeholder" width="528" height="396" viewBox="0 0 528 396">
+								<rect width="528" height="396" style="fill:transparent;" />
+							</svg>
+							<div class="hero-figure-box hero-figure-box-01" data-rotation="45deg"></div>
+							<div class="hero-figure-box hero-figure-box-02" data-rotation="-45deg"></div>
+							<div class="hero-figure-box hero-figure-box-03" data-rotation="0deg"></div>
+							<div class="hero-figure-box hero-figure-box-04" data-rotation="-135deg"></div>
+							<div class="hero-figure-box hero-figure-box-05"></div>
+							<div class="hero-figure-box hero-figure-box-06"></div>
+							<div class="hero-figure-box hero-figure-box-07"></div>
+							<div class="hero-figure-box hero-figure-box-08" data-rotation="-22deg"></div>
+							<div class="hero-figure-box hero-figure-box-09" data-rotation="-52deg"></div>
+							<div class="hero-figure-box hero-figure-box-10" data-rotation="-50deg"></div>
+						</div>
+                    </div>
+                </div>
+            </section>
 
-    <div id="menu" class="astro-ISJLNC5K">
-        <div class="pure-menu astro-ISJLNC5K">
-            <a class="pure-menu-heading astro-ISJLNC5K" href="#company">Nikms.com</a>
+            <section class="features section">
+                <div class="container">
+					<div class="features-inner section-inner has-bottom-divider">
+                        <div class="features-wrap">
+                            <div class="feature text-center is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img src="dist/images/feature-icon-01.svg" alt="Feature 01">
+                                    </div>
+                                    <h4 class="feature-title mt-24">Have any ideas?</h4>
+                                    <p class="text-sm mb-0"> Feel free to contact me! </div>
+                            </div>
+							<div class="feature text-center is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img src="dist/images/feature-icon-02.svg" alt="Feature 02">
+                                    </div>
+                                    <h4 class="feature-title mt-24">My github</h4>
+                                    <p class="text-sm mb-0">https://github.com/ni-ms  </div>
+                            </div>
+                            <div class="feature text-center is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img src="dist/images/feature-icon-03.svg" alt="Feature 03">
+                                    </div>
+                                    <h4 class="feature-title mt-24">My Email</h4>
+                                    <p class="text-sm mb-0">nikmsharma@gmail.com</div>
+                            </div>
+                        
+							
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-            <ul class="pure-menu-list astro-ISJLNC5K">
-                <li class="pure-menu-item astro-ISJLNC5K"><a href="#" class="pure-menu-link astro-ISJLNC5K">Home</a></li>
-                <li class="pure-menu-item astro-ISJLNC5K"><a href="about" class="pure-menu-link astro-ISJLNC5K">About</a></li>
 
-                 <li class="pure-menu-item astro-ISJLNC5K"><a href="projects" class="pure-menu-link astro-ISJLNC5K">Projects</a></li>
+			<section class="cta section">
+				<div class="container">
+					<div class="cta-inner section-inner">
+						<h3 class="section-title mt-0">Still not convinced?</h3>
+						<div class="cta-cta">
+							<a class="button button-primary button-wide-mobile" href="#">Get in touch</a>
+						</div>
+					</div>
+				</div>
+			</section>
+        </main>
 
-                <li class="pure-menu-item astro-ISJLNC5K"><a href="contact" class="pure-menu-link astro-ISJLNC5K">Contact</a></li>
-            </ul>
-        </div>
+        <footer class="site-footer">
+            <div class="container">
+                <div class="site-footer-inner">
+                    <div class="brand footer-brand">
+						<a href="#">
+							<img class="header-logo-image" src="dist/images/logo.svg" alt="Logo">
+						</a>
+                    </div>
+                    <ul class="footer-links list-reset">
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQ's</a>
+                        </li>
+                        <li>
+                            <a href="#">Support</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-social-links list-reset">
+                        <li>
+                            <a href="#">
+                                <span class="screen-reader-text">Facebook</span>
+                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" fill="#0270D7"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="screen-reader-text">Twitter</span>
+                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" fill="#0270D7"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="screen-reader-text">Google</span>
+                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" fill="#0270D7"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="footer-copyright">&copy; 2019 Nikms, all rights reserved</div>
+                </div>
+            </div>
+        </footer>
     </div>
 
-
-<h1 class="header astro-ISJLNC5K">
-Hello and welcome to my website!
-
-
- </h1>
-<div class="content astro-ISJLNC5K">
-It's still WIP, but in the meantime, check out this random cat picture!
-<br class="astro-ISJLNC5K">
-<br class="astro-ISJLNC5K">
-<img src="https://cataas.com/cat/gif" alt="Cat Gif" width="250" height="250" class="astro-ISJLNC5K">
-</div>
-
-</div>
-
-
-
-	</div>
-</main>
-	
-</body></html>
+    <script src="dist/js/main.min.js"></script>
+</body>
+</html>
